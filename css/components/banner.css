@@ -1,0 +1,33 @@
+.banner {
+    background-image:
+        linear-gradient(rgba(10, 25, 60, 0.75), rgba(10, 25, 60, 0.5)),
+        url('../../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.banner .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 72px;
+    letter-spacing: 6px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.85;
+    margin: 0;
+    letter-spacing: 2px;
+}

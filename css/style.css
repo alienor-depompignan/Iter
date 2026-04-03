@@ -1,0 +1,56 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;700&display=swap");
+
+/* Importing components */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+
+/* General */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    background-color: #F4F6F9;
+    color: #102542;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    width: 900px;
+    margin: 60px auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    flex: 1;
+    border-top: 4px solid #1B3F72;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+}
